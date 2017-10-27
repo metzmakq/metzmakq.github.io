@@ -2,11 +2,13 @@
 <html>
     <style>
         @media screen and (max-width: 550px) {
-            #name, #projects, #work, #skills, #contact{
-                font-size: 2.8em !important;
+            #name{
+                padding-top: 80px !important;
+                margin-top: 120px;
+                font-size: 3em !important;
             }
             .backImage, .backImage2, .backImage3, .backImage4, .backImage5{
-                background-attachment: scroll;
+                background-attachment: scroll !important;
             }
         }
         body{
@@ -196,35 +198,35 @@
             <h5><strong>Programming Languages</strong></h5>
             <ul>
                 <li><strong>C++</strong></li>
-                    <p id="cplusplus">C++ is the main language used in many of the Computer Science classes taugh at the University of Michigan
-                        Because of that, I have strong experience using and implementing many data structures, and implementing complex algorithms in c++. Examples of some of the things I have done with c++ include: a Machine Learning Classifier,
-                        a Branch and Bound solution to the travelling salesman problem, a Euchre command line game, and a program to allow users to create and interact with a "database" with sql-like commands.
+                    <p id="cplusplus">Level: Proficient - C++ is the main language used in many of the Computer Science classes taught at the University of Michigan.
+                        Because of that, I have strong experience using it to implement different data structures and complex algorithms. Examples of some of the things I have done with C++ include: a Machine Learning Classifier,
+                        a Branch and Bound solution to the travelling salesman problem, a Euchre command line game, and a program to allow users to create and "database" and interact with it using sql-like commands.
                     </p>
                 <li><strong>C</strong></li>
-                    <p id="c">C is used in some classes at Michigan, but I would still say that I have a good understanding of the language and good experience with it. Some of things I have done with c include: creating an assembler to turn LC2K assembler into machine code,
-                        creating a simulator to execute the machine code from the LC2k instruction set, and a program that finds passwords that are valid SQL entries to execute SQL Injection against sites that hash and store passwords as binary output.
+                    <p id="c">Level: Advanced - I have a good understanding of the language and a lot of experience with it. Some of things I have done with C include: creating an assembler to turn LC2K assembler into machine code,
+                        creating a simulator to execute the machine code from the LC2k instruction set, and a program that finds passwords that are valid SQL entries when hashed to execute SQL Injection against sites that hash and store passwords as binary output.
                     </p>
                 <li><strong>Python</strong></li>
-                    <p id="python">I have a really good understanding of Python as it is really easy to understand and use. Some of the things I have used Python for include: using letter frequency analysis to crack Caeser ciphers, using string frequency analysis and letter frequency analysis to crack Vigineire ciphers,
+                    <p id="python">Level: Proficient - I have a really good understanding of Python and have used it a lot. Some of the things I have used Python for include: using letter frequency analysis to crack Caeser ciphers, using string frequency analysis and letter frequency analysis to crack Vigineire ciphers,
                         a program that allows a user to text from the command line, and a program that analyzes a pcap file to identify IP addresses that are potentially SYN scanning.
                     </p>
                 <li><strong>Java</strong></li>
-                    <p id="java">I have a good understanding of Java. I used it during my internship at Delta Dental to implement REST services on the backend and have been learning/using it since then. </p>
+                    <p id="java">Level: Intermediate - I have a good understanding of Java as I used it during my internship at Delta Dental to implement REST services on the backend. I have been learning/using it since then. </p>
                 <li><strong>Matlab</strong></li>
-                    <p id="matlab">Matlab is useful for some of the math classes at the University of Michigan. Because of that I have good experience using it to perform complex calculations. Some of the things I have used Matlab for include: linear algebra, creating a musical synthesizer and transcriber, using Linear Programming techniques to solve for optimal bond schedules,
-                        and making approximations using Least Squares. 
+                    <p id="matlab">Level: Intermediate - Matlab is useful for some of the math classes at the University of Michigan. Because of that I have good experience using it to perform complex calculations and model data. Some of the things I have used Matlab for include: linear algebra computations, creating a musical synthesizer and transcriber, using Linear Programming techniques to solve for optimal bond schedules,
+                        and making approximations using Least Squares approximation. 
                     </p>
             </ul>
             <h5><strong>Web Technologies</strong></h5>
             <ul>
                 <li><strong>HTML/CSS</strong></li>
-                    <p id="htmlCss">I have a strong grasp on HTML/CSS and using them to create and organize webpages.</p>
+                    <p id="htmlCss">Level: Proficient - I have a strong grasp on HTML/CSS and using them to create and organize webpages.</p>
                 <li><strong>Javascript</strong></li>
-                    <p id ="javascript">I have a strong understanding of Javascript and its quirks. I have used it to for simple things such as making webpages interactive, and more complex things such as implementing path planning algorithms, a PID controller, Forward Kinematics, Inverse Kinematics and Finite State Machines for a robotics simulation that runs in a browser.</p>
+                    <p id ="javascript">Level: Proficient - I have a strong understanding of Javascript and its quirks. I have used it to for simple things such as making webpages interactive, and more complex things such as implementing path planning algorithms, PID controllers, Forward Kinematics, Inverse Kinematics and Finite State Machines for a robotics simulation that runs in the browser.</p>
                 <li><strong>Typescript</strong></li>
-                    <p id="typescript">I learned Typescript while I was learning Angular. I thoroughly enjoy the object oriented approach it allows you to take towards web development. I have a lot of experience using it with Angular.</p>
+                    <p id="typescript">Level: Proficient - I learned Typescript while I was learning Angular. I thoroughly enjoy the object oriented approach it allows you to take towards web development and have a lot of experience using it with Angular.</p>
                 <li><strong>Angular 2+</strong></li>
-                    <p id="angular">I learned Angular during my internship at Delta Dental and produced a large Angular application as an end product. The Angular framework is extremely powerful when used correctly. It abstracts away the DOM interaction and allows you to develop scalable, high performance, cross platform compatible applications.
+                    <p id="angular">Level: Advanced - I learned Angular during my internship at Delta Dental and produced a large Angular application as an end product. The Angular framework is extremely powerful when used correctly. It abstracts away the DOM interaction and allows you to develop scalable, high performance, cross platform compatible applications.
                         I have strong experience using it and will continue to learn/use it.
                     </p>
             </ul>
@@ -234,6 +236,9 @@
                 <h2>Projects</h2>
                 <p><strong>Machine Learning Classifier</strong><br>
                     Piazza is a forum where students can ask questions with those questions relating to a certain label such as "Homework #1" or "Lecture". Using the Naive Bayes Classifier I implemented a program that would take in a training set of data that was made up sample posts and their labels, and then use the data it collected to try to classify new posts into their correct label.
+                </p>
+                <p><strong>Musical Synthesizer and Transcriber</strong> - Group Project<br>
+                    As a group we developed Matlab code to simulate multiple instruments, and then transcribe the sounds into near perfect musical notation. I was also tasked with writing scripts to analyze error rates.
                 </p>
         </div>
         <div class="backImage5"><h1 id="contact">Contact</h1></div>
